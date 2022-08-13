@@ -1,27 +1,27 @@
 
 
 body {
-    font-size: 25px; font-family: Roboto, sans-serif;  text-align: center; color: rgb(142, 151, 151); background-color: #DAD7CD; margin: 30px;
+    font-size: 25px; font-family: Inter, sans-serif;  text-align: center; color: #A3B18A; background-color: #344E41; margin: 30px; font-weight: 300;
 }
 
-h1 { color: #A3B18A; background-color: #344E41;
-    font-family: Roboto, sans-serif; text-align: center; line-height: 40px; padding: 30px;
+h1 { color: #DAD7CD; background-color: #588157;
+     text-align: center; line-height: 40px; padding: 30px; font-weight: 500;
 }
 
-ul { display: inline-block;  
+ul { display: inline-block; align-items: center; text-align: left; background-color: #588157; color: #DAD7CD; padding: 20px 300px; 
 
 } 
 
 p {
-    text-align: center;
+    text-align: center; 
 }
 
-h4 {
-    line-height: 5px;
+h4,h3 {
+    line-height: 5px; background-color: #588157; padding: 25px; padding-left: 80px; color: #DAD7CD;
 }
 
 #eu {
-    line-height: 35px;
+    line-height: 35px; 
 }
 
 img { 
@@ -29,5 +29,17 @@ img {
 
 }
 
+#homem { 
+    color: #DAD7CD;
+}
 
+#manual {
+    color: #344E41 ; background-color: #A3B18A; padding: 10px 20px; border-radius: 10px; text-decoration: none;
+}
+
+.link-color {
+    color: #DAD7CD;
+}
+
+<! -- paleta de cores https://coolors.co/palette/dad7cd-a3b18a-588157-3a5a40-344e41 -->
 
