@@ -1,0 +1,33 @@
+
+
+body {
+    font-size: 25px; font-family: Roboto, sans-serif;  text-align: center; color: rgb(142, 151, 151); background-color: #DAD7CD; margin: 30px;
+}
+
+h1 { color: #A3B18A; background-color: #344E41;
+    font-family: Roboto, sans-serif; text-align: center; line-height: 40px; padding: 30px;
+}
+
+ul { display: inline-block;  
+
+} 
+
+p {
+    text-align: center;
+}
+
+h4 {
+    line-height: 5px;
+}
+
+#eu {
+    line-height: 35px;
+}
+
+img { 
+    border-radius: 50% ; width: 200px;
+
+}
+
+
+
