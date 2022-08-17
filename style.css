@@ -1,45 +1,79 @@
 
 
 body {
-    font-size: 25px; font-family: Inter, sans-serif;  text-align: center; color: #A3B18A; background-color: #344E41; margin: 30px; font-weight: 300;
+    font-size: 25px; font-family: Inter, sans-serif; color: #A3B18A; background-color: #344E41; font-weight: 300;
 }
 
-h1 { color: #DAD7CD; background-color: #588157;
-     text-align: center; line-height: 40px; padding: 30px; font-weight: 500;
-}
-
-ul { display: inline-block; align-items: center; text-align: left; background-color: #588157; color: #DAD7CD; padding: 20px 300px; 
-
-} 
-
-p {
-    text-align: center; 
-}
-
-h4,h3 {
-    line-height: 5px; background-color: #588157; padding: 25px; padding-left: 80px; color: #DAD7CD;
-}
-
-#eu {
-    line-height: 35px; 
+h1 { color: #DAD7CD; background-color: #588157; 
+    padding: 15px; font-weight: 500; text-align: center;
+    
 }
 
 img { 
-    border-radius: 50% ; width: 200px;
+    border-radius: 50% ; width: 15%;
+    display: block;
+    position: absolute;
+    left: 5%;
+    padding: 8px;
+    background-color: #1c2b24;
+}
 
+#eu {
+    line-height: 35px; display: inline-block;
+    position: absolute;
+    left: 27%;
+    top: 24%;
+    width: 70%;
+    text-align: center; 
 }
 
 #homem { 
     color: #DAD7CD;
 }
 
+#habilidades {
+    display: inline-block; padding: 50px 80px; margin-top: 350px; margin-left: 200px;
+   position: absolute; background-color: #588157; color: #DAD7CD;
+
+}
+
+h3 {
+    line-height: 5px; background-color: #588157; color: #DAD7CD; padding: 35px;
+}
 #manual {
     color: #344E41 ; background-color: #A3B18A; padding: 10px 20px; border-radius: 10px; text-decoration: none;
+    transition: 0,2s;
+    
+ }
+ 
+ #manual:hover {
+    background-color: #588157; color: #A3B18A; 
+ }
+
+
+h4 { line-height: 25px; background-color: #588157; padding: 25px 467px;  color: #DAD7CD;
+    position: absolute; margin-top: 730px; display: inline-block;
 }
+
 
 .link-color {
     color: #DAD7CD;
 }
 
-<! -- paleta de cores https://coolors.co/palette/dad7cd-a3b18a-588157-3a5a40-344e41 -->
+
+.hobbie {
+ position: absolute; margin-left: 190px; margin-top: 320px; margin-left: 1000px; text-align: center;
+
+
+}
+
+.links { background-color: #588157; color: #DAD7CD; margin-top: 850px; display: inline-block; margin-left: 590px;
+    padding: 35px 100px; line-height: 55px;
+   
+} 
+
+
+
+
+/* paleta de cores https://coolors.co/palette/dad7cd-a3b18a-588157-3a5a40-344e41 */ 
 
